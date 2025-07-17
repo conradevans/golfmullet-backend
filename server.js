@@ -26,7 +26,8 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 
 // Change the port from 5000 to 5050 to avoid macOS AirTunes conflict
-const PORT = 5050;
+const PORT = process.env.PORT || 5050;
+
 app.listen(PORT, () =>
   console.log(`✅ Server running on http://localhost:${PORT}`)
 );
