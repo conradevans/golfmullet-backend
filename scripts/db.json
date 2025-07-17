@@ -1,0 +1,76 @@
+{
+  "clothes": [
+    {
+      "id": "1",
+      "name": "Blue Polo",
+      "url": "bluepolo",
+      "price": "$25.99",
+      "tags": ["blue", "polo", "men"],
+      "img": "/images/bluepolo.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Blue Shorts",
+      "url": "blueshorts",
+      "price": "$25.99",
+      "tags": ["blue", "shorts", "men"],
+      "img": "/images/blueshorts.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Brown Shorts",
+      "url": "brownshorts",
+      "price": "$25.99",
+      "tags": ["brown", "shorts", "men"],
+      "img": "/images/brownshorts.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Green Polo",
+      "url": "greenpolo",
+      "price": "$25.99",
+      "tags": ["green", "polo", "men"],
+      "img": "/images/greenpolo.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Green Shorts",
+      "url": "greenshorts",
+      "price": "$25.99",
+      "tags": ["green", "shorts", "men", "bestsellers"],
+      "img": "/images/greenshorts.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "Nike Shoe",
+      "url": "nikeshoe",
+      "price": "$25.99",
+      "tags": ["nike", "shoes", "men", "white", "women", "sale"],
+      "img": "/images/nikeshoe.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Puma Shoe",
+      "url": "pumashoe",
+      "price": "$25.99",
+      "tags": ["puma", "shoes", "men", "white", "women", "new"],
+      "img": "/images/pumashoe.jpeg"
+    },
+    {
+      "id": "8",
+      "name": "Purple Polo",
+      "url": "purplepolo",
+      "price": "$25.99",
+      "tags": ["purple", "polo", "men"],
+      "img": "/images/purplepolo.jpeg"
+    },
+    {
+      "id": "9",
+      "name": "Addidas Shoe",
+      "url": "addidasshoe",
+      "price": "$25.99",
+      "tags": ["addidas", "shoes", "men", "women", "white", "brown"],
+      "img": "/images/shoe.jpeg"
+    }
+  ]
+}
