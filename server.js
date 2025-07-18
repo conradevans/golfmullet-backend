@@ -13,7 +13,7 @@ const app = express();
 // CORS options
 const corsOptions = {
   origin: [
-    "https://golfmullet-frontend.vercel.app", // Vercel frontend
+    "https://golfmullet.vercel.app", // Vercel frontend
     "http://localhost:3000", // Local frontend
   ],
   credentials: true,
