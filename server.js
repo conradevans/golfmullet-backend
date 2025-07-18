@@ -9,7 +9,17 @@ const productRoutes = require("./routes/products");
 const userRoutes = require("./routes/user");
 
 const app = express();
-app.use(cors());
+
+// CORS options
+const corsOptions = {
+  origin: [
+    "https://golfmullet-frontend.vercel.app", // Vercel frontend
+    "http://localhost:3000", // Local frontend
+  ],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 console.log("URI:", process.env.MONGO_URI);
@@ -25,9 +35,7 @@ app.use("/api/products", productRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 
-// Change the port from 5000 to 5050 to avoid macOS AirTunes conflict
+// Use Render's PORT or default to 5050
 const PORT = process.env.PORT || 5050;
 
-app.listen(PORT, () =>
-  console.log(`✅ Server running on http://localhost:${PORT}`)
-);
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
